@@ -1,0 +1,110 @@
+@media screen and (min-width : 1000px) {
+    .menu-button{
+        display: none;
+    }
+    .close-button{
+        display: none;
+    }
+    .ham_nav ul{
+        display: none;
+    }
+    .desk_nav{
+        display: block;
+        flex-flow: row;
+        padding-top: .5rem;
+        justify-content: center;
+    }
+    .desk_nav li{
+        display: inline;
+        padding: 1em;
+    }
+    header{
+        position:fixed;
+    }
+    .banner{
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+    
+}
+@media screen and (max-width : 1000px) {
+    .header{
+        width: 100%;
+        position: fixed;
+        
+    }
+    .banner{
+        padding-top: 5rem;
+    }
+    .desk_nav{
+        display: none;
+    }
+    .ham_nav{
+        display: flex;
+    }
+    .client .person{
+        width: 90%;
+        height: auto;
+        
+    }
+    .client{
+        display: inline-block;
+    }
+    .work_details{
+        flex-direction: column;
+    }
+    .delivery_details{
+        width: 100%;
+    }
+    .delivery_guy{
+        display: none;
+    }
+}
+@media screen and (max-width : 580px) {
+    
+   
+    header img{
+        width: 150px;
+        height: auto;
+    }
+    header h3{
+        position: absolute;
+        top: 1em;
+        left: 12em;
+        padding-top: .9em;
+        font-weight: 100;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 280px) {
+   
+    .client{
+       
+       margin: 0;
+       padding: 0; 
+       width: 100%;
+    }
+    .identity img{
+        width: 40px;
+        height: 40px;
+        top: 1rem;
+        display: flex;
+    }
+    .nowrap p{
+        font-size: small;
+    }
+    header img{
+        width: 100px;
+        height: auto;
+        padding-right: 1em;
+    }
+    header h3{
+        position: absolute;
+        left: 8em;
+        padding-top: 1em;
+        font-weight: 100;
+        font-size: 15px;
+    }
+}
+
