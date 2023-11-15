@@ -284,3 +284,13 @@ header a, header img::selection{
 .error{
     color: red;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: var(--HEADER-COLOR);
+    padding: .5em;
+}
