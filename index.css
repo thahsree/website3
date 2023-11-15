@@ -227,7 +227,7 @@ ul a:focus{
     display: flex;
     justify-content: space-between;
     width: 104%;
-    background-color: #333;
+    background-color: var(--BACKGROUND-COLOR);
 }
 .delivery_details{
     display: flex;
@@ -235,7 +235,6 @@ ul a:focus{
     width: 50%;
     padding: 2em;
     text-align: center;
-    color: whitesmoke;
 }
 .delivery_details ul{
     padding-inline-start: 0;
@@ -252,7 +251,6 @@ ul a:focus{
     display: inline-block;
     width: 50%;
     height: 100px;
-    float: left;
 }
 .delivery_details h3::selection,.delivery_details ul li::selection{
     color: rgb(155, 82, 234);
